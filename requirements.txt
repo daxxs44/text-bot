@@ -1,0 +1,12 @@
+# Core Discord Bot Requirements
+discord.py[voice]==2.3.2
+PyNaCl==1.5.0
+
+# Text-to-Speech
+gTTS==2.4.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Note: FFmpeg is required for audio processing
+# Railway includes FFmpeg via nixpacks.toml configuration
